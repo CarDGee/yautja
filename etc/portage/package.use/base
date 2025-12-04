@@ -1,0 +1,44 @@
+############################################
+#██████╗  █████╗ ███████╗███████╗
+#██╔══██╗██╔══██╗██╔════╝██╔════╝
+#██████╔╝███████║███████╗█████╗  
+#██╔══██╗██╔══██║╚════██║██╔══╝  
+#██████╔╝██║  ██║███████║███████╗
+#╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
+############################################
+
+#doas
+app-admin/doas persist
+
+#fwupd
+sys-apps/fwupd archive bluetooth gnutls introspection nvme policykit seccomp systemd tpm uefi
+
+#intel
+sys-firmware/intel-microcode initramfs
+
+#kernel
+dev-util/perf libpfm
+sys-kernel/cachyos-sources build experimental kcfi -autofdo -llvm-lto-thin -llvm-lto-thin-dist
+sys-kernel/installkernel systemd systemd-boot ugrd
+sys-kernel/gentoo-sources experimental
+virtual/linux-sources firmware
+
+#lua
+dev-lang/luajit lua52compat
+
+#misc
+app-text/xmlto text
+
+#nvidia
+x11-drivers/nvidia-drivers X kernel-open persistenced powerd wayland
+
+#rust
+dev-lang/rust clippy profiler rls rust-src rustfmt 
+dev-lang/rust-bin clippy profiler rls rust-src rustfmt 
+virtual/rust profiler rustfmt
+
+#systemd
+sys-apps/systemd boot
+
+#vim
+app-editors/vim -lua_single_target_lua5-1 lua lua_single_target_luajit python terminal

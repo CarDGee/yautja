@@ -1,0 +1,29 @@
+############################################
+#██████╗  █████╗ ███████╗███████╗
+#██╔══██╗██╔══██╗██╔════╝██╔════╝
+#██████╔╝███████║███████╗█████╗  
+#██╔══██╗██╔══██║╚════██║██╔══╝  
+#██████╔╝██║  ██║███████║███████╗
+#╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
+###########################################
+
+#dislocker
+sys-fs/dislocker ~amd64
+
+#doas
+app-admin/doas ~amd64
+
+#gcc
+#=sys-devel/gcc-15.2.0 **
+
+#kernel
+=sys-kernel/cachyos-sources-6.17.9 ~amd64
+
+#modprobed-db
+sys-kernel/modprobed-db ~amd64
+
+#zsh
+app-shells/zsh-autocomplete ~amd64
+app-shells/zsh-autosuggestions ~amd64
+app-shells/zsh-history-substring-search ~amd64
+app-shells/zsh-syntax-highlighting ~amd64

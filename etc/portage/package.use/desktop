@@ -1,0 +1,51 @@
+#
+#                       .,,uod8B8bou,,.
+#              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+#         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+#         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+#         !.......:!?|||||!!^^""'            ||||
+#         !.........||||                     ||||
+#         !.........||||  ~#                 ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         `.........||||                    ,||||
+#          .;.......||||               _.-!!|||||
+#   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+#!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+#!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+#!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+#!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^`;:::       `.
+#!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+#`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+#  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+#    `........::::::::::::::::;iof688888888888888888888b.     `
+#      `......:::::::::;iof688888888888888888888888888888b.
+#        `....:::;iof688888888888888888888888888888888899fT!
+#          `..::!8888888888888888888888888888888899fT|!^"'
+#            `' !!988888888888888888888888899fT|!^"'
+#                `!!8888888888888888899fT|!^"'
+#                  `!988888888899fT|!^"'
+#                    `!9899fT|!^"'
+#                      `!^"'
+#
+#  ╔══════════════════════════════════════════════════════════════╗
+#  ║                                                              ║
+#  ║                                                              ║
+#  ╚══════════════════════════════════════════════════════════════╝
+#
+###########################################################################
+
+#firefox (clang dbus hwaccel pgo pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-pipewire system-png system-webp wayland -X gmp-autoupdate jumbo-build openh264 -telemetry l10n_en-GB l10n_pt-PT)
+media-libs/libpng apng
+www-client/firefox hwaccel openh264 pgo system-pipewire system-png wayland -telemetry
+
+#keepassxc
+app-admin/keepassxc X autotype browser keeshare
+
+#rdp
+net-misc/freerdp X
+
+#thunderbird (clang hwaccel pgo pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-librnp system-pipewire system-png system-webp wayland -X l10n_en-GB l10n_pt-PT)
+mail-client/thunderbird hwaccel pgo system-icu system-pipewire system-png wayland l10n_en-GB l10n_pt-PT

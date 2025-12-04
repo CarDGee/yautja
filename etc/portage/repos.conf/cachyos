@@ -1,0 +1,4 @@
+[CachyOS-kernels]
+location = /var/db/repos/CachyOS-kernels
+sync-type = git
+sync-uri = https://github.com/Szowisz/CachyOS-kernels

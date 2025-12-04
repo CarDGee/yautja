@@ -1,0 +1,17 @@
+
+modules = [
+  "ugrd.kmod.standard_mask",
+  "ugrd.crypto.cryptsetup",
+]
+
+kmod_autodetect_lspci = true
+
+loglevel = 0
+
+auto_mounts = ['/boot']
+
+cryptsetup_trim = true
+
+[cryptsetup.gentoo]
+
+uuid = "c4e7006f-4fe6-46ce-bee9-4d51516ed303"

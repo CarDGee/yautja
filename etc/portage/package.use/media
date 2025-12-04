@@ -1,0 +1,77 @@
+#  ___________________________________________
+# |  _______________________________________  |
+# | / .-----------------------------------. \ |
+# | | | /\ :                        90 min| | |
+# | | |/--\:....................... NR [ ]| | |
+# | | `-----------------------------------' | |
+# | |      //-\\   |         |   //-\\      | |
+# | |     ||( )||  |_________|  ||( )||     | |
+# | |      \\-//   :....:....:   \\-//      | |
+# | |       _ _ ._  _ _ .__|_ _.._  _       | |
+# | |      (_(_)| |(_(/_|  |_(_||_)(/_      | |
+# | |               low noise   |           | |
+# | `______ ____________________ ____ ______' |
+# |        /    []             []    \        |
+# |       /  ()                   ()  \       |
+# !______/_____________________________\______!
+#
+#  ╔═══════════════════════════════════════════════════════════════╗
+#  ║  MULTIMEDIA USE FLAGS  🎵🎧                                   ║
+#  ║  Professional audio/video production on Gentoo                ║
+#  ╚═══════════════════════════════════════════════════════════════╝
+#
+##########################################################################
+
+
+#audacity
+media-sound/audacity ffmpeg id3tag mpg123 opus twolame sbsms vamp wavpack
+x11-libs/wxGTK X
+
+#bluetooth
+net-wireless/bluez experimental
+
+#carla
+dev-python/pyqt5 widgets gui
+media-sound/carla gtk rdf sf2 sndfile
+
+#easyeffects
+media-sound/easyeffects calf mda-lv2 zamaudio
+media-plugins/calf experimental -gui -jack lv2
+
+#ffmpeg
+media-video/ffmpeg jpegxl ladspa lame libaom libcaca openh264 opus rubberband speex srt theora twolame vaapi vdpau vpx x265
+media-libs/libvpx postproc
+
+#gimp
+media-gfx/gimp X aalib fits heif jpeg2k openexr postscript vector-icons wmf xpm
+media-libs/babl introspection
+media-libs/gegl cairo introspection
+media-libs/libwmf X
+x11-libs/pango X
+
+#hydrogen
+media-sound/hydrogen jack ladspa osc oss portaudio portmidi
+
+#mesa
+x11-apps/mesa-progs X gles2
+
+#mixxx
+media-sound/mixxx keyfinder lv2 midi modplug qtkeychain rubberband shout wavpack
+
+#mpv
+media-libs/libva X
+media-libs/vulkan-loader X
+media-video/mpv X libcaca rubberband sdl
+
+#pipewire
+media-libs/opus custom-modes
+media-video/pipewire echo-cancel extra fftw jack-sdk loudness pipewire-alsa
+
+#qtractor
+media-sound/qtractor aubio dssi ladspa libsamplerate osc rubberband
+
+#shntool
+media-sound/shntool alac mac sox wavpack
+
+#zip
+dev-libs/libzip gnutls lzma mbedtls tools

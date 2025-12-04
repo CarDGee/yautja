@@ -1,0 +1,30 @@
+#gtk
+dev-python/pycairo X
+media-libs/libepoxy X
+x11-libs/cairo X
+x11-libs/gtk+ X
+
+#kde
+kde-frameworks/kwindowsystem X
+kde-plasma/plasma-workspace X
+
+#keepassxc
+app-admin/keepassxc X
+
+#mesa
+media-libs/mesa X
+
+#nvidia
+media-libs/libglvnd X
+
+#qt
+dev-qt/qtbase X
+dev-qt/qtgui X
+dev-qt/qtmultimedia X
+x11-libs/libxkbcommon X
+
+#system
+sys-apps/dbus X
+
+#webkit
+media-libs/gst-plugins-base X

@@ -1,0 +1,48 @@
+#
+#    ███╗   ███╗███████╗████████╗ █████╗ ██████╗  █████╗  ██████╗██╗  ██╗ █████╗  ██████╗ ███████╗███████╗
+#    ████╗ ████║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔══██╗██╔════╝ ██╔════╝██╔════╝
+#    ██╔████╔██║█████╗     ██║   ███████║██████╔╝███████║██║     █████╔╝ ███████║██║  ███╗█████╗  ███████╗
+#    ██║╚██╔╝██║██╔══╝     ██║   ██╔══██║██╔═══╝ ██╔══██║██║     ██╔═██╗ ██╔══██║██║   ██║██╔══╝  ╚════██║
+#    ██║ ╚═╝ ██║███████╗   ██║   ██║  ██║██║     ██║  ██║╚██████╗██║  ██╗██║  ██║╚██████╔╝███████╗███████║
+#    ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝
+#
+#    ┌────────────────────────────────────────────────────────────────────────────────────────┐
+#    │                          Modular system configuration                                  │
+#    │                                                                                        │
+#    └────────────────────────────────────────────────────────────────────────────────────────┘
+#
+#    BASE → DESKTOP → SPECIALIZED (games/graphics/music/video/terminal/hardware)
+#
+#################################################################################################
+#
+# Metapackage USE flag configuration
+# Each meta pulls in related packages with minimal bloat
+#
+#################################################################################################
+
+#base (dislocker doas f2fs genkernel installkernel lld openrc systemd xfs)
+app-meta/base doas installkernel
+
+#desktop (alacritty appimage calendar contacts epiphany games gnome gnome-terminal graphics hyprland k3b kcdemu kde kdeconnect keepassxc kid3 kitty ktorrent maps mpd mpv music nautilus nemo nerd networkmanager nicotine qbittorrent qtile signal sweeper video virt-manager waybar weather webapp)
+app-meta/desktop games graphics k3b kde kid3 kdeconnect keepassxc mpv music qbittorrent signal video virt-manager
+
+#games ( bottles cemu dxvk epic gamescope lutris mangohud suyu vkbasalt vkd3d wine )
+app-meta/gamedeps epic lutris mangohud
+
+#graphics ( blender gimp inkscape krita pencil synfig )
+app-meta/graphics gimp
+
+#kde ( accessibility bluetooth browser-integration colord crash-handler crypt cups discover display-manager elogind firewall flatpak grub gtk kwallet networkmanager oxygen-theme plymouth pulseaudio qt5 sddm sdk smart systemd thunderbolt unsupported wacom wallpapers webengine xwayland )
+kde-plasma/plasma-meta discover kwallet
+
+#music ( ardour audacity carla easyeffects flacon hydrogen lmms mixxx shntool tenacity )
+app-meta/music audacity carla easyeffects hydrogen mixxx qtractor shntool
+
+#terminal-tools ( android ftp ufw vim yt-dlp zsh )
+app-meta/terminal-tools android ufw vim zsh
+
+#tuf ( asusctl )
+app-meta/tdashf15 asusctl
+
+#video ( blender handbrake kdenlive mkvtools obs openshot shotcut vidcutter )
+app-meta/video mkvtools

@@ -1,0 +1,215 @@
+#   ____________________________________________________
+#  |____________________________________________________|
+#  | __     __   ____   ___ ||  ____    ____     _  __  |
+#  ||  |__ |--|_| || |_|   |||_|**|*|__|+|+||___| ||  | |
+#  ||==|^^||--| |=||=| |=*=||| |~~|~|  |=|=|| | |~||==| |
+#  ||Ca|##||rD| | || | |Gee|||-|  | |==|+|+||-|-|~||__| |
+#  ||__|__||__|_|_||_|_|___|||_|__|_|__|_|_||_|_|_||__|_|
+#  ||_______________________||__________________________|
+#  | _____________________  ||      __   __  _  __    _ |
+#  ||=|=|=|=|=|=|=|=|=|=|=| __..\/ |  |_|  ||#||==|  / /|
+#  || | | | | | | | | | | |/\ \  \\|++|=|  || ||==| / / |
+#  ||_|_|_|_|_|_|_|_|_|_|_/_/\_.___\__|_|__||_||__|/_/__|
+#  |____________________ /\~()/()~//\ __________________|
+#  | __   __    _  _     \_  (_ .  _/ _    ___     _____|
+#  ||~~|_|..|__| || |_ _   \ //\\ /  |=|__|~|~|___| | | |
+#  ||--|+|^^|==|1||2| | |__/\ __ /\__| |==|x|x|+|+|=|=|=|
+#  ||__|_|__|__|_||_|_| /  \ \  / /  \_|__|_|_|_|_|_|_|_|
+#  |_________________ _/    \/\/\/    \_ _______________|
+#  | _____   _   __  |/      \../      \|  __   __   ___|
+#  ||_____|_| |_|##|_||   |   \/ __|   ||_|==|_|++|_|-|||
+#  ||______||=|#|--| |\   \   o    /   /| |  |~|  | | |||
+#  ||______||_|_|__|_|_\   \  o   /   /_|_|__|_|__|_|_|||
+#  |_________ __________\___\____/___/___________ ______|
+#  |__    _  /    ________     ______           /| _ _ _|
+#  |\ \  |=|/   //    /| //   /  /  / |        / ||%|%|%|
+#  | \/\ |*/  .//____//.//   /__/__/ (_)      /  ||=|=|=|
+#__|  \/\|/   /(____|/ //                    /  /||~|~|~|__
+#  |___\_/   /________//   ________         /  / ||_|_|_|
+#  |___ /   (|________/   |\_______\       /  /| |______|
+#      /                  \|________)     /  / | |
+##########################################################################################
+
+#clang
+dev-libs/libxml2 abi_x86_32
+dev-libs/libffi abi_x86_32
+llvm-core/clang abi_x86_32
+llvm-core/clang-runtime abi_x86_32
+llvm-core/lld abi_x86_32
+llvm-core/llvm abi_x86_32
+llvm-core/polly abi_x86_32
+sys-libs/libcxx abi_x86_32	
+sys-libs/libcxxabi abi_x86_32	
+sys-libs/libomp abi_x86_32	
+sys-libs/llvm-libunwind abi_x86_32
+
+#steam
+dev-libs/expat abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/libgcrypt abi_x86_32
+dev-libs/libgpg-error abi_x86_32
+dev-libs/libpcre2 abi_x86_32
+dev-libs/wayland abi_x86_32
+dev-util/spirv-tools abi_x86_32
+games-util/steam-launcher abi_x86_32
+games-util/heroic-bin abi_x86_32
+gui-libs/egl-gbm abi_x86_32
+gui-libs/egl-wayland abi_x86_32
+gui-libs/egl-x11 abi_x86_32
+media-gfx/graphite2 abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/harfbuzz abi_x86_32
+media-libs/libglvnd abi_x86_32
+media-libs/libsndfile abi_x86_32
+media-libs/libogg abi_x86_32
+media-libs/libpulse abi_x86_32
+media-libs/libpng abi_x86_32
+media-libs/libvorbis abi_x86_32
+media-libs/mesa abi_x86_32
+media-libs/opus abi_x86_32
+media-libs/flac abi_x86_32
+media-libs/xcb-util-keysyms abi_x86_32
+media-sound/lame abi_x86_32
+media-sound/mpg123-base abi_x86_32
+net-libs/libasyncns abi_x86_32
+sys-apps/hwloc abi_x86_32
+sys-apps/lm-sensors abi_x86_32
+sys-apps/pciutils abi_x86_32
+sys-apps/systemd abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-devel/mold abi_x86_32
+sys-libs/gdbm abi_x86_32
+sys-libs/gpm abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-libs/libudev-compat abi_x86_32
+sys-libs/libunwind abi_x86_32
+sys-libs/ncurses abi_x86_32
+sys-libs/pam abi_x86_32
+sys-libs/readline abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libintl abi_x86_32
+virtual/libudev abi_x86_32
+virtual/opengl abi_x86_32
+x11-libs/cairo abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libpciaccess abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/pixman abi_x86_32
+x11-libs/xcb-util-keysyms abi_x86_32
+x11-drivers/nvidia-drivers abi_x86_32
+
+#system
+app-arch/bzip2 abi_x86_32
+app-arch/lz4 abi_x86_32
+app-arch/xz-utils abi_x86_32
+app-arch/zstd abi_x86_32
+app-crypt/p11-kit abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/icu abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-libs/zlib abi_x86_32
+virtual/zlib abi_x86_32
+
+#wine
+app-accessibility/at-spi2-core abi_x86_32
+app-arch/brotli abi_x86_32
+dev-cpp/highway abi_x86_32
+dev-lang/orc abi_x86_32
+dev-lang/rust-bin abi_x86_32
+dev-libs/elfutils abi_x86_32
+dev-libs/fribidi abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/libgudev abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/openssl abi_x86_32
+dev-libs/libusb abi_x86_32
+gnome-base/librsvg abi_x86_32
+gui-libs/libdecor abi_x86_32
+media-libs/a52dec abi_x86_32
+media-libs/alsa-lib abi_x86_32
+media-libs/dav1d abi_x86_32
+media-libs/faad2 abi_x86_32
+media-libs/freeglut abi_x86_32
+media-libs/giflib abi_x86_32
+media-libs/glu abi_x86_32
+media-libs/graphene abi_x86_32
+media-libs/gst-plugins-bad abi_x86_32
+media-libs/gst-plugins-base abi_x86_32
+media-libs/gst-plugins-good abi_x86_32
+media-libs/gst-plugins-ugly abi_x86_32
+media-libs/gstreamer abi_x86_32
+media-libs/lcms abi_x86_32
+media-libs/libaom abi_x86_32
+media-libs/libass abi_x86_32
+media-libs/libcaca abi_x86_32
+media-libs/libdca abi_x86_32
+media-libs/libebur128 abi_x86_32
+media-libs/libepoxy abi_x86_32
+media-libs/libdvdcss abi_x86_32
+media-libs/libdvdnav abi_x86_32
+media-libs/libdvdread abi_x86_32
+media-libs/libjxl abi_x86_32
+media-libs/libjpeg-turbo abi_x86_32
+media-libs/libmpeg2 abi_x86_32
+media-libs/libsamplerate abi_x86_32
+media-libs/libsdl2 abi_x86_32
+media-libs/libtheora abi_x86_32
+media-libs/libva abi_x86_32
+media-libs/libvpx abi_x86_32
+media-libs/libwebp abi_x86_32
+media-libs/openh264 abi_x86_32
+media-libs/rubberband abi_x86_32
+media-libs/speex abi_x86_32
+media-libs/tiff abi_x86_32
+media-libs/vulkan-loader abi_x86_32
+media-libs/x264 abi_x86_32
+media-libs/x265 abi_x86_32
+media-libs/xvid abi_x86_32
+media-plugins/gst-plugins-a52dec abi_x86_32
+media-plugins/gst-plugins-cdparanoia abi_x86_32
+media-plugins/gst-plugins-dts abi_x86_32
+media-plugins/gst-plugins-dvdread abi_x86_32
+media-plugins/gst-plugins-faad abi_x86_32
+media-plugins/gst-plugins-flac abi_x86_32
+media-plugins/gst-plugins-jack abi_x86_32
+media-plugins/gst-plugins-libav abi_x86_32
+media-plugins/gst-plugins-meta abi_x86_32
+media-plugins/gst-plugins-mpeg2dec abi_x86_32
+media-plugins/gst-plugins-mpg123 abi_x86_32
+media-plugins/gst-plugins-pulse abi_x86_32
+media-plugins/gst-plugins-resindvd abi_x86_32
+media-plugins/gst-plugins-x264 abi_x86_32
+media-sound/cdparanoia abi_x86_32
+media-sound/twolame abi_x86_32
+media-video/ffmpeg abi_x86_32
+media-video/pipewire abi_x86_32
+net-dns/libidn2 abi_x86_32
+net-libs/gnutls abi_x86_32
+net-libs/srt abi_x86_32
+net-print/cups abi_x86_32
+sci-libs/fftw abi_x86_32
+virtual/glu abi_x86_32
+virtual/jack abi_x86_32
+x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/gtk+ abi_x86_32
+x11-libs/libvdpau abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXft abi_x86_32
+x11-libs/libXkbcommon abi_x86_32
+x11-libs/libxkbcommon abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/pango abi_x86_32

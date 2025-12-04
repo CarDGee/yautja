@@ -1,0 +1,59 @@
+#
+#                       .,,uod8B8bou,,.
+#              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+#         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+#         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+#         !.......:!?|||||!!^^""'            ||||
+#         !.........||||                     ||||
+#         !.........||||  ~#                 ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         `.........||||                    ,||||
+#          .;.......||||               _.-!!|||||
+#   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+#!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+#!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+#!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+#!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
+#!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+#`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+#  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+#    `........::::::::::::::::;iof688888888888888888888b.     `
+#      `......:::::::::;iof688888888888888888888888888888b.
+#        `....:::;iof688888888888888888888888888888888899fT!
+#          `..::!8888888888888888888888888888888899fT|!^"'
+#            `' !!988888888888888888888888899fT|!^"'
+#                `!!8888888888888888899fT|!^"'
+#                  `!988888888899fT|!^"'
+#                    `!9899fT|!^"'
+#                      `!^"'
+#######################################################################################
+
+#appimage
+dev-libs/libdatrie ~amd64
+dev-libs/libthai ~amd64
+
+#ftp
+net-ftp/vsftpd ~amd64
+
+#games
+dev-python/moddb ~amd64
+dev-python/pypresence ~amd64
+games-util/esteam ~amd64
+games-util/game-device-udev-rules ~amd64
+games-util/heroic-bin ~amd64
+games-util/lutris ~amd64
+games-util/steam-launcher ~amd64
+sys-libs/libudev-compat ~amd64
+
+#gimp
+=media-gfx/gimp-3.1.4 **
+=media-libs/babl-0.1.114 ~amd64
+=media-libs/gegl-0.4.62 ~amd64
+
+app-emulation/wine-staging ~amd64
+
+#mpv
+mpv-plugin/mpv-mpris ~amd64
