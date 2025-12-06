@@ -15,11 +15,3 @@
 #          
 #
 ##########################################################################
-
-#clang
-
-#thunderbird
-mail-client/thunderbird X -jack -l10n_en-GB -l10n_pt-PT
-
-#webkit
-net-libs/webkit-gtk X
