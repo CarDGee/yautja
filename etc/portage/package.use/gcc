@@ -16,4 +16,4 @@
 #############################################
 
 #gcc
-sys-devel/gcc cet graphite jit nptl pgo rust vtv
+sys-devel/gcc cet graphite jit lto nptl pgo rust vtv
